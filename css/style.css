@@ -1,0 +1,88 @@
+.section-bg{
+    background-image: url(../images/pic.jpg);
+}
+.section-padding {
+    position: relative;
+    margin-top: 100px;
+}
+
+.section-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 59%;
+    background-size: cover;
+    z-index: -1;
+}
+.section-bg::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #31d6be;
+    width: 100%;
+    height: 100%;
+    content: "";
+    opacity: .9;
+}
+.contact-form {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contact-form input,
+ .contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 22px;
+    border: none;
+    color: #333;
+}
+
+input:focus,
+ textarea:focus,
+  button:focus {
+    outline: none;
+}
+
+.contact-form h2 {
+    color: #fff;
+}
+.contact-form input[type="submit"] {
+    width: auto;
+    padding: 15px 30px;
+    color: #0eaa93;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.appointamet-text {
+    padding-left: 100px;
+    padding-top: 134px;
+}
+.appointamet-text h3 {
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 2.5rem;
+    margin-bottom: 58px;
+}
+.appointamet-text ul {
+    list-style: none;
+    margin-left: -31px;
+    margin-bottom: 48px;
+}
+.appointamet-text ul li {
+    margin-top: 16px;
+    font-size: 18px;
+}
+.appointamet-text ul li i.fa.fa-shield {
+    margin-right: 19px;
+    color: #0eaa93;
+}
+a.boxed-btn {
+    text-decoration: none;
+    color: #fff;
+    background: #0eaa93;
+    padding: 15px 36px;
+    border-radius: 5px;
+    font-weight: 500;
+}
