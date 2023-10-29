@@ -1,88 +1,48 @@
-.section-bg{
-    background-image: url(../images/pic.jpg);
+.zigzag-text-bg-1{
+    background-image: url(../images/class-2\,first-img.jpg);
+}
+.zigzag-text-bg-2{
+    background-image: url(../images/class\ -2\,tow-img.jpg);
+    overflow: hidden;
 }
 .section-padding {
-    position: relative;
-    margin-top: 100px;
-}
-
-.section-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 59%;
     background-size: cover;
-    z-index: -1;
+    background-position: center;
 }
-.section-bg::after {
+.zigaz-text {
+    position: relative;
+    z-index: 2;
+    padding-right: 67px;
+    color: #fff;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.zigaz-text::after {
     position: absolute;
     top: 0;
-    left: 0;
-    background: #31d6be;
-    width: 100%;
+    left: -400%;
+    width: 501%;
     height: 100%;
-    content: "";
-    opacity: .9;
-}
-.contact-form {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.contact-form input,
- .contact-form textarea {
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 22px;
-    border: none;
-    color: #333;
-}
-
-input:focus,
- textarea:focus,
-  button:focus {
-    outline: none;
-}
-
-.contact-form h2 {
-    color: #fff;
-}
-.contact-form input[type="submit"] {
-    width: auto;
-    padding: 15px 30px;
-    color: #0eaa93;
-    font-weight: 700;
-    border-radius: 5px;
-}
-.appointamet-text {
-    padding-left: 100px;
-    padding-top: 134px;
-}
-.appointamet-text h3 {
-    font-size: 29px;
-    font-weight: 400;
-    line-height: 2.5rem;
-    margin-bottom: 58px;
-}
-.appointamet-text ul {
-    list-style: none;
-    margin-left: -31px;
-    margin-bottom: 48px;
-}
-.appointamet-text ul li {
-    margin-top: 16px;
-    font-size: 18px;
-}
-.appointamet-text ul li i.fa.fa-shield {
-    margin-right: 19px;
-    color: #0eaa93;
+    background-color: rgb(46, 191, 157);
+    content: '';
+    z-index: -1;
+    opacity: .8;
+    transform: skew(13deg);
 }
 a.boxed-btn {
     text-decoration: none;
     color: #fff;
-    background: #0eaa93;
-    padding: 15px 36px;
+    background: gray;
+    padding: 10px 30px;
     border-radius: 5px;
-    font-weight: 500;
+    margin-top: 26px;
+    display: inline-block;
+}
+.zigzag-text-bg-2 .zigaz-text::after {
+    left: auto;
+    right: -389%;
+}
+.zigzag-text-bg-2 .zigaz-text {
+    padding-left: 65px;
+    padding-right: 0;
 }
