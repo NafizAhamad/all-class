@@ -1,83 +1,22 @@
-.section-padding {
-    padding: 60px 0;
-    text-align: center;
+body {
+    color: #9c9c9c;
 }
-.section-text {
-    margin-bottom: 84px;
-}
-.section-text h2 {
-    font-size: 39px;
-    margin-bottom: 32px;
-}
-.section-text h2 span {
-    color: #009dd4;
-}
-.single-price-box {
-    border: 1px solid #ddd;
-    padding: 20px;
-    transition: .3s;
-}
-.price-icon i {
-    font-size: 70px;
-    color: #ddd;
-    margin-bottom: 29px;
-    margin-top: 17px;
-    transition: .3s;
-}
-.priging-list {
-    text-align: left;
-}
-.priging-list ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    padding-left: 47px;
-    line-height: 29px;
-}
-.priging-list ul li::before{
-    font-family: fontAwesome;
-    content: "\f00c";
-    color: rgb(1, 177, 40);
-    padding-right: 11px;
-}
-.priging-list ul li.off::before{
-    content: "\f00d";
-    color: red;
-
-}
-h3.priging-count {
-    margin-top: 24px;
-}
-.boxed-btn {
-    text-decoration: none;
-    border: 1px solid #1473bc;
+h1,h2,h3,h4,h5,h6 {
     color: #333;
-    padding: 11px 26px;
-    margin-bottom: 12px;
-    display: inline-block;
-    margin-top: 16px;
-    border-radius: 50px;
-    transition: .3s;
 }
+.section-padding {
+    padding: 80px 0;
+}
+.dume {
 
-
-
-.single-price-box:hover {
-    border: 1px solid #089de4;
-    box-shadow: 0px 0px 8px #089de4;
+    height: 130px;
+    max-width: 123px;
+    border-radius: 70%;
+    margin-bottom: 30px;
 }
-.single-price-box:hover
-.boxed-btn{
-    background: #089de4;
-    color: #fff;
+.row {
+    margin-bottom: 50px;
 }
-.priging-list ul li:hover {
-    padding-left: 10px;
-}
-.priging-list ul li {
-    transition: .3s;
-}
-.single-price-box:hover 
-.price-icon i{
-    color: #089de4;
+.section-titel h2 {
+    font-size: 44px;
 }
