@@ -1,58 +1,37 @@
-.section-padding{
-    padding: 90px 0;
+section.section-padding {
+    padding: 105px;
 }
-.section-title {
-    margin-bottom: 63px;
-    text-align: center;
+.section-bg-1::after{
+    background-image: url(../images/big-img.jpg);
 }
-.section-title h2 {
+.section-bg-1{
     position: relative;
-    z-index: 1;
-    padding-bottom: 27px;
-    margin-bottom: 15px;
 }
-.section-title h2::before {
-    bottom: 0;
-    left: 49%;
+.section-bg-1:after {
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 47%;
+    height: 100%;
     content: "";
-    width: 86px;
-    height: 4px;
-    background: #fedb77;
-    margin-left: -30px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
 }
-.section-title h2::after {
-    position: absolute;
-    content: "";
-    background: #ff7875;
-    bottom: 0;
-    left: 50%;
-    height: 4px;
-    width: 30px;
-    margin-left: -13px;
+h2.section-title {
+    /* margin-top: 50px; */
+    margin-bottom: 39px;
+    text-transform: uppercase;
+    font-size: 37px;
 }
-.single-service-icon {
-    display: block;
-    text-align: center;
-    min-height: 240px;
-    margin-bottom: 30px;
-    color: #333;
+
+h2.section-title span {
+    color: #008eff;
 }
-#text{
-    text-decoration: none;
-}
-.single-service-icon h3 {
-    margin: 20px 0;
-    font-size: 26px;
-}
-.service-icon-container {
-    display: table;
-    width: 100%;
-    height: 80px;
-    /* color: #fedb77;
-    font-size: 53px; */
-}
-.service-icon-tablecell {
-    display: table-cell;
-    vertical-align: middle;
+
+p.sume-text {
+    font-size: 17px;
+    line-height: 25px;
+    color: #7e8484;
+    margin-bottom: 27px;
 }
