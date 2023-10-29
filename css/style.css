@@ -1,48 +1,74 @@
-.zigzag-text-bg-1{
-    background-image: url(../images/class-2\,first-img.jpg);
-}
-.zigzag-text-bg-2{
-    background-image: url(../images/class\ -2\,tow-img.jpg);
-    overflow: hidden;
-}
-.section-padding {
+.video-area-bg{
+    background-image: url(../images/video-play-img.jpg);
+    background-color: #ddd;
     background-size: cover;
     background-position: center;
 }
-.zigaz-text {
+.check-icon li::before{
+    font-family: fontAwesome;
+    content: "\f00c";
+}
+.video-area {
     position: relative;
-    z-index: 2;
-    padding-right: 67px;
-    color: #fff;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 70px 0;
+    margin-top: 100px;
 }
-.zigaz-text::after {
+
+.video-area-bg {
     position: absolute;
+    left: 0;
     top: 0;
-    left: -400%;
-    width: 501%;
     height: 100%;
-    background-color: rgb(46, 191, 157);
-    content: '';
-    z-index: -1;
-    opacity: .8;
-    transform: skew(13deg);
+    width: 47%;
+    box-shadow: 0px 0px 10px #ff7100;
 }
-a.boxed-btn {
-    text-decoration: none;
+.video-play-btn {
+    position: absolute;
+    right: -46px;
+    top: 50%;
+    height: 100px;
+    width: 100px;
+    background: #ff7100;
+    text-align: center;
+    line-height: 95px;
+    font-size: 39px;
     color: #fff;
-    background: gray;
-    padding: 10px 30px;
-    border-radius: 5px;
-    margin-top: 26px;
+    border-radius: 50%;
+    padding-left: 7px;
+    margin-top: -50px;
     display: inline-block;
 }
-.zigzag-text-bg-2 .zigaz-text::after {
-    left: auto;
-    right: -389%;
+ul.check-icon {
+    list-style: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
 }
-.zigzag-text-bg-2 .zigaz-text {
-    padding-left: 65px;
-    padding-right: 0;
+
+.check-icon li {
+    position: relative;
+    padding-left: 32px;
+    padding-bottom: 13px;
+    color: #938d8d;
+}
+
+ul.check-icon li:before {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    color: #ff7100;
+}
+
+.section-text h3 {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #0099d8;
+    margin-bottom: 25px;
+}
+
+.section-text p {
+    color: #857c7c;
+    line-height: 29px;
+    font-size: 17px;
 }
